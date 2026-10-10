@@ -200,7 +200,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 textCapitalization: TextCapitalization.words,
                 decoration: const InputDecoration(
                   labelText: 'First Name *',
-                  hintText: 'Jhodenis',
                   prefixIcon: Icon(Icons.person),
                   border: OutlineInputBorder(),
                 ),
@@ -214,7 +213,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 maxLength: 1,
                 decoration: const InputDecoration(
                   labelText: 'Middle Initial',
-                  hintText: 'M',
                   prefixIcon: Icon(Icons.person_outline),
                   border: OutlineInputBorder(),
                   counterText: '',
@@ -228,7 +226,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 textCapitalization: TextCapitalization.words,
                 decoration: const InputDecoration(
                   labelText: 'Family Name *',
-                  hintText: 'Edano',
                   prefixIcon: Icon(Icons.person),
                   border: OutlineInputBorder(),
                 ),
@@ -241,7 +238,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 textCapitalization: TextCapitalization.words,
                 decoration: const InputDecoration(
                   labelText: 'StudyCircle Name *',
-                  hintText: 'Ninin',
                   prefixIcon: Icon(Icons.alternate_email),
                   border: OutlineInputBorder(),
                 ),
@@ -264,7 +260,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 textCapitalization: TextCapitalization.characters,
                 decoration: const InputDecoration(
                   labelText: 'Course *',
-                  hintText: 'BSIT',
                   prefixIcon: Icon(Icons.school),
                   border: OutlineInputBorder(),
                 ),
